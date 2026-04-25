@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="HIGHLANDER-DAY.png" alt="" class="banner">
+    <form class="form" action="" id="registration">
+        <label for="fname">First name:</label><br/>
+        <input type="text" id="fname" name="fname" placeholder="FIRST NAME"><br/>
+
+        <label for="lname">Last name:</label><br/>
+        <input type="text" id="lname" name="lname" placeholder="LAST NAME"><br/>
+
+        <label for="bday">Date of Birth:</label><br/>
+        <input type="date" id="bday"><br/>
+        
+        <label for="college">College:</label><br/>
+        <select id="college" name="college">
+            <option value="">SELECT COLLEGE</option>
+            <option value="BCOE">BCOE</option>
+            <option value="CNAS">CNAS</option>
+            <option value="CHASS">CHASS</option>
+            <option value="SOB">SOB</option>
+            <option value="SPP">SPP</option>
+            <option value="SOE">SOE</option>
+        </select><br/>
+
+        <label for="major">Major:</label><br/>
+        <select id="major" name="major">
+            <option value="">SELECT MAJOR</option>
+        </select><br/>
+
+        <label for="phone">Phone Number:</label><br/>
+        <input type="text" id="phone" name="phone" placeholder="PHONE NUMBER"><br/>
+
+        <label for="email">Email Address:</label><br/>
+        <input type="text" id="email" name="email" placeholder="EMAIL ADDRESS"><br/>
+
+        <label for="subscribe">Subscribe to UCR Events:</label>
+        <input class="checkbox" type="checkbox" id="subscribe" name="subscribe"><br/>
+
+        <label for="guests">Number of Guests:</label><br/>
+        <input type="number" id="guests" name="guests" min="1"><br/><br/>
+
+        <div class="btn-container">
+            <button class="cssbuttons-io-button" type="submit" id="submitBtn" disabled>Submit
+                <div class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+                </div>
+            </button>
+            <button class="cssbuttons-io-button" type="reset">Reset
+                <div class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+                </div>
+            </button>
+        </div>
+
+    </form>
+
+    
+</body>
+</html>
